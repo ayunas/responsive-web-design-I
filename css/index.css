@@ -1,3 +1,58 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+.container {
+    max-width: 800px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    
+}
+
+.innovation {
+    text-align: center;
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+.innovation h1 {
+    margin-bottom: 0px;
+}
+
+.innovation button {
+    padding: 5px 20px;    
+}
+
+.code {
+    margin-top: 50px;
+}
 
