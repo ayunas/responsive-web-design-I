@@ -85,12 +85,14 @@ nav a {
     margin: 0 30px;
 }
 
-@media(max-width: 800px) {
-    margin: ;
-}
-
 .innovation h1 {
     margin-bottom: 0px;
+}
+
+@media(max-width:500px) {
+    .innovation h1 {
+    margin-top: 0px;
+    }
 }
 
 .innovation button {
@@ -116,11 +118,25 @@ nav a {
     display: flex;
 }
 
+@media(max-width: 500px) {
+    .main-top {
+        flex-direction: column;
+    }
+    
+    .box {
+        margin: 20px;
+    }
+}
 .main-bottom {
     display: flex;
     border-bottom: 2px solid;
 }
-
+    
+@media(max-width: 500px) {
+    .main-bottom {
+        flex-direction: column;
+    }    
+}
 address {
     font-style: normal;
 }
