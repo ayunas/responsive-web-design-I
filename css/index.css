@@ -1,7 +1,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 .container {
-    max-width: 800px;
+    max-width: 876px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -41,7 +41,7 @@ nav a {
 .innovation {
     text-align: center;
     font-size: 45px;
-    margin-left: 30px;
+    margin: 0 30px;
 }
 
 .innovation h1 {
@@ -56,3 +56,24 @@ nav a {
     margin-top: 50px;
 }
 
+.main-top {
+    border-top: 2px solid black;
+    margin-top: 40px;
+}
+
+.main-top {
+    display: flex;
+}
+
+.main-bottom {
+    display: flex;
+    border-bottom: 2px solid;
+}
+
+address {
+    font-style: normal;
+}
+
+.copyright {
+    text-align: center;
+}
